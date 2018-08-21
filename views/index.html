@@ -1,0 +1,57 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to a Redis Demo</title>
+    <meta name="description" content="A redis demo using glitch.com">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Redis Demo
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      <p>Leave your message for all time</p>
+      <form>
+        <input type="text" maxlength="100" placeholder="I want the world to know...">
+        <button type="submit">Submit</button>
+      </form>
+      <section class="messages">
+        <ul id="messages">
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <div>
+        <a href="https://glitch.com/edit/#!/juniper-toothpaste">Remix me on glitch.com!</a>
+      </div>
+      <div>
+        <a href="https://glitch.com/~believing-for-redis">Forked from https://glitch.com/@BlessYAHU</a>
+      </div>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
