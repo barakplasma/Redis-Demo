@@ -1,7 +1,3 @@
-// server.js
-// where your node app starts
-//var bacon = require('baconjs');
-// init project
 var express = require('express');
 var app = express();
 
